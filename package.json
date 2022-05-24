@@ -4,6 +4,7 @@
   "description": "a skeleton for typescript cli tools",
   "main": "./bundle/index.js",
   "repository": "https://github.com/Mario-F/nodecli.git",
+  "homepage": "https://github.com/Mario-F/nodecli",
   "author": "Mario-F <github@fritschen.net>",
   "license": "MIT"
 }
