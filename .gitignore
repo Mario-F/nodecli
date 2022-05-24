@@ -1,3 +1,12 @@
+# nodecli custom entries
+.DS_Store
+node_modules
+tmp
+temp
+/dist
+/bundle
+.pkgcache
+
 # Logs
 logs
 *.log
