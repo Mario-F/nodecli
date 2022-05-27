@@ -10,14 +10,14 @@ async function main(printCompiletTime = false) {
   const { execa } = await import('execa')
   const path = require('path')
   const jetpack = require('fs-jetpack')
-  const stripJSONComments = require('strip-json-comments')
+  const stripJsonComments = (await import('strip-json-comments')).default
 
   // Find paths and bins
   const rootPath = path.resolve(path.join(__dirname, '../'))
   const tscBin = path.join(rootPath, 'node_modules/.bin/tsc')
   const tsconfigFile = path.join(rootPath, 'tsconfig.json')
   const tsconfigRaw = jetpack.read(tsconfigFile)
-  const tsconfigJSON = JSON.parse(stripJSONComments(tsconfigRaw))
+  const tsconfigJSON = JSON.parse(stripJsonComments(tsconfigRaw))
   const bundlePath = path.join(rootPath, tsconfigJSON.compilerOptions.outDir)
 
   // Remove old directory because Typescript Compilter doesnt cleanup by default
