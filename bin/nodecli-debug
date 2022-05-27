@@ -1,0 +1,25 @@
+#!/usr/bin/env node
+/* eslint-disable no-undef */
+/* eslint-disable @typescript-eslint/no-var-requires */
+
+async function main() {
+  process.env.NODE_ENV = 'development'
+
+  // Start compile ts -> js
+  const mainProgram = require('./compile').main(true)
+
+  // Only use with nodejs debugger and vscode autoconnect!
+  // Delay execution of main program to give vscode debugger time for connect
+  // Fixes bug with "stopOnEntry" not working
+  const inspector = require('inspector')
+  inspector.open()
+  inspector.waitForDebugger()
+
+  // Wait for compile finished
+  await mainProgram
+
+  // Start main program
+  require('../bundle/index')
+}
+
+main()
