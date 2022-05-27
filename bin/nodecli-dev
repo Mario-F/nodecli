@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+/* eslint-disable no-undef */
+/* eslint-disable @typescript-eslint/no-var-requires */
+
+async function main() {
+  process.env.NODE_ENV = 'development'
+
+  // Compile ts -> js
+  await require('./compile').main()
+
+  // Start main program
+  require('../bundle/index')
+}
+
+main()
