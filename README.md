@@ -8,3 +8,7 @@
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/mario-f/nodecli.svg)](http://isitmaintained.com/project/mario-f/nodecli "Percentage of issues still open")
 
 This project is a cli bin template written in typescript and distributed to multiple release channels.
+
+## Install
+
+Install with: `npm install -g nodecli`
