@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Mario-F/nodecli/compare/v1.0.0...v1.0.1) (2022-05-29)
+
+
+### Miscellaneous
+
+* scoped package ([f81b6c0](https://github.com/Mario-F/nodecli/commit/f81b6c08d2652dd80e65e6a081b5429787da3d59))
+
 ## 1.0.0 (2022-05-28)
 
 
