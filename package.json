@@ -1,5 +1,5 @@
 {
-  "name": "nodecli",
+  "name": "@mariof/nodecli",
   "version": "1.0.0",
   "description": "a skeleton for typescript cli tools",
   "main": "./bundle/index.js",
