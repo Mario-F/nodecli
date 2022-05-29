@@ -16,6 +16,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 16
+      - name: Compile app
+        run: yarn && yarn compile
       - name: Install dependencies
         run: npm install -g semantic-release @semantic-release/changelog @semantic-release/git conventional-changelog-conventionalcommits
       - name: Release-Dryrun
