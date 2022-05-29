@@ -17,6 +17,9 @@
     "lint": "eslint src/. --ext .ts --fix",
     "compile": "node bin/compile.js"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.26.0",
