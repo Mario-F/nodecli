@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/Mario-F/nodecli/compare/v1.0.1...v1.0.2) (2022-05-29)
+
+
+### Bug Fixes
+
+* added publishconfig access option ([de7d87f](https://github.com/Mario-F/nodecli/commit/de7d87f52d25fa8a8f912a6a570c47ed4edfdf91))
+
 ## [1.0.1](https://github.com/Mario-F/nodecli/compare/v1.0.0...v1.0.1) (2022-05-29)
 
 
