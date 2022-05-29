@@ -11,4 +11,4 @@ This project is a cli bin template written in typescript and distributed to mult
 
 ## Install
 
-Install with: `npm install -g nodecli`
+Install with: `npm install -g @mariof/nodecli`
