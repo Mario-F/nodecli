@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/Mario-F/nodecli/compare/v1.0.2...v1.0.3) (2022-05-29)
+
+
+### Bug Fixes
+
+* added comile step to release ([d42fa22](https://github.com/Mario-F/nodecli/commit/d42fa226e82a5b746ff9d610f0718344e1e3176d))
+
 ## [1.0.2](https://github.com/Mario-F/nodecli/compare/v1.0.1...v1.0.2) (2022-05-29)
 
 
