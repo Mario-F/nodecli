@@ -12,3 +12,17 @@ This project is a cli bin template written in typescript and distributed to mult
 ## Install
 
 Install with: `npm install -g @mariof/nodecli`
+
+## Development
+
+The development aims to be quick and easy to use, you need to install dependencies with `yarn`, after that you have 2 major ways.
+
+DEV Binary:
+
+Execute the dev binary with `./bin/nodecli-dev` this will compile and execute the project like normal.
+
+DEBUG Binary:
+
+Execute the debug binary with `./bin/nodecli-debug` this will compile and execute the project and wait for node debugger to connect.
+
+When developing with vscode the launch config already delivery with this project and you only need to hit F5, on each subsequent execution the debugger will now automatically connect.
