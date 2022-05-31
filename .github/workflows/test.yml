@@ -23,4 +23,4 @@ jobs:
         run: yarn lint
 
       - name: Execute dev bin to make sure it works
-        run: ./bin/nodecli-dev
+        run: ./bin/nodecli-dev hello
