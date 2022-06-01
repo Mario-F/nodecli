@@ -1,3 +1,22 @@
+## [1.1.0](https://github.com/Mario-F/nodecli/compare/v1.0.3...v1.1.0) (2022-06-01)
+
+
+### Features
+
+* added yargs with i18n and basic hell world ([582e2a6](https://github.com/Mario-F/nodecli/commit/582e2a6f2a1add9aeb7a0be81a75732cc409c187))
+
+
+### Bug Fixes
+
+* typo in install command ([c06f9bf](https://github.com/Mario-F/nodecli/commit/c06f9bff1f76626e7c4e8632719c57a1dcb345f4))
+
+
+### Miscellaneous
+
+* add development docs ([fce8bc0](https://github.com/Mario-F/nodecli/commit/fce8bc030745b4e63d30b63afde104b05ecba509))
+* added install command ([be53616](https://github.com/Mario-F/nodecli/commit/be53616d22ab89bc24e265136f1a9d8b74562d2c))
+* corrected test ([3ee9692](https://github.com/Mario-F/nodecli/commit/3ee96920ba63cecabe204dccbb62a4eaf39d799b))
+
 ## [1.0.3](https://github.com/Mario-F/nodecli/compare/v1.0.2...v1.0.3) (2022-05-29)
 
 
