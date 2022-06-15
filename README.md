@@ -13,6 +13,12 @@ This project is a cli bin template written in typescript and distributed to mult
 
 Install with: `npm install -g @mariof/nodecli`
 
+## Usage
+
+npm binary: `nodecli`
+
+docker image: `docker run -it --rm ghcr.io/mario-f/nodecli:latest`
+
 ## Development
 
 The development aims to be quick and easy to use, you need to install dependencies with `yarn`, after that you have 2 major ways.
