@@ -1,3 +1,17 @@
+## [1.2.0](https://github.com/Mario-F/nodecli/compare/v1.1.0...v1.2.0) (2022-06-15)
+
+
+### Features
+
+* add de locale ([63ec23c](https://github.com/Mario-F/nodecli/commit/63ec23ce19308698a3b7de7413f559c0f8c46df3))
+* added dockerfile ([d5507a3](https://github.com/Mario-F/nodecli/commit/d5507a356748f7a7256077c7d2c3f03d26b5a15d))
+
+
+### Miscellaneous
+
+* added usage info to README ([eebaa18](https://github.com/Mario-F/nodecli/commit/eebaa1845b7a2a4ef339a8825f1d0b87cf94df28))
+* adding docker buildx on release ([7cc1041](https://github.com/Mario-F/nodecli/commit/7cc1041766362dc5643470ec9d6e2ff3a013735b))
+
 ## [1.1.0](https://github.com/Mario-F/nodecli/compare/v1.0.3...v1.1.0) (2022-06-01)
 
 
