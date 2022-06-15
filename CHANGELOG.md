@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/Mario-F/nodecli/compare/v1.2.0...v1.2.1) (2022-06-15)
+
+
+### Miscellaneous
+
+* added armv7 support on docker build ([686aab3](https://github.com/Mario-F/nodecli/commit/686aab3b834508692aaa80d6bd9bf3bc76b916ea))
+
 ## [1.2.0](https://github.com/Mario-F/nodecli/compare/v1.1.0...v1.2.0) (2022-06-15)
 
 
