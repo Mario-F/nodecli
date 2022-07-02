@@ -1,3 +1,17 @@
+## [1.3.0](https://github.com/Mario-F/nodecli/compare/v1.2.1...v1.3.0) (2022-07-02)
+
+
+### Features
+
+* added conf as config manager ([ad9e8bf](https://github.com/Mario-F/nodecli/commit/ad9e8bf6dc2c5d7ee68403d66e23d470198b8c7e))
+* added config commands ([ddaa649](https://github.com/Mario-F/nodecli/commit/ddaa649ba3b728f987129e76a68a40ce727dacd2))
+* added config show command ([cfd5291](https://github.com/Mario-F/nodecli/commit/cfd5291ba647a5edfd7dbd7f5c7a9295305f5be6))
+
+
+### Performance Improvements
+
+* use json-stringify-safe ([a9a1174](https://github.com/Mario-F/nodecli/commit/a9a1174f7c73ef20fcd79a9a3d85cd70f06abbc7))
+
 ## [1.2.1](https://github.com/Mario-F/nodecli/compare/v1.2.0...v1.2.1) (2022-06-15)
 
 
