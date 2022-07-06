@@ -7,7 +7,7 @@ type ConfigGetArguments = {
 }
 
 export const command = 'get <configname>'
-export const desc = i18n.__('Shows the current config including metadata')
+export const desc = i18n.__('Get a single configuration parameter')
 export const builder = {}
 export const handler = function (argv: ConfigGetArguments): void {
   const result = config.get(argv.configname)
