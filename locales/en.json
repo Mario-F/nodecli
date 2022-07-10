@@ -4,5 +4,6 @@
 	"Shows the current config including metadata": "Shows the current config including metadata",
 	"Get a single configuration parameter": "Get a single configuration parameter",
 	"Set a single configuration parameter": "Set a single configuration parameter",
-	"Delete a single configuration parameter": "Delete a single configuration parameter"
+	"Delete a single configuration parameter": "Delete a single configuration parameter",
+	"No additional text configured, use command config set hello \"your text here\"": "No additional text configured, use command config set hello \"your text here\""
 }
